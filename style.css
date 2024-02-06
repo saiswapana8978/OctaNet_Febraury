@@ -1,0 +1,110 @@
+#container{
+width:800px;
+background-color:#ccccb3;
+margin:auto;
+}
+#header{
+width:100%;
+height:100px;
+background-color:#4d94ff;
+}
+body{
+	margin:0;
+}
+#nav{
+	background-color:black;
+	height:50px;
+	width:100%;
+}
+#article{
+	background-color: #ccccff;
+	width:70%;
+	height:500px;
+	float:left;
+}
+#footer{
+	background-color:black;
+	width:100%;
+	height:40px;
+	clear:both;
+}
+#sidebar{
+	width:30%;
+	height:500px;
+	background-color:#00cc00;
+	float:right;
+}
+#logo{
+	height:100%;
+	width:25%;
+	background-color: #ff1a1a;
+	float:left;
+}
+#slogan{
+	height:100%;
+	width:75%;
+	background-color:#4da6ff;
+	float:right;
+}
+#logo img{
+	width:80%;
+	margin:10px 0px 0px 10px;
+	height:80%;
+}
+#slogan h1{
+	text-align:center;
+	margin-top:40px;
+}
+#nav ul{
+	list-style-type:none;
+	display:inline;
+	padding-top:5px;
+	margin:0px;
+}
+#nav ul li{
+	float:left;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:10px 12px 10px 12px;
+	background-color:#ff80ff;
+	border-right:1px solid white;
+}
+#nav ul li a:hover{
+	font-family:arial;
+	background-color:#993399;
+	border-radius:25px;
+}
+#content{
+	padding:0;
+	margin:0;
+	margin-left:12px;
+	width:90%;
+}
+#content h1,p{
+	margin:5px;
+}
+#sidebar a{
+	text-decoration:none;
+}
+.icon{
+	width:20%;
+	margin-left:10px;
+	
+}
+#sidebar h1{
+	text-decoration:underline;
+	color:black;
+	padding-left:10px;
+	font-family:Times New Roman;
+}
+#footer p{
+	color:white;
+	text-align:center;
+	padding-top:10px;
+}
+#nav .active{
+	background-color:#993399;
+}
